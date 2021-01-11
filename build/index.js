@@ -22,13 +22,3 @@ for (var _i = 0, _a = reader.data; _i < _a.length; _i++) {
     }
 }
 console.log(manUnitedWins);
-// [
-//   [start:run]   [
-//   [start:run]     '10/08/2018',
-//   [start:run]     'Man United',
-//   [start:run]     'Leicester',
-//   [start:run]     '2',
-//   [start:run]     '1',
-//   [start:run]     'H',
-//   [start:run]     'A Marriner'
-//   // [start:run]   ],
