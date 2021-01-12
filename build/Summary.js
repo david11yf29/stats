@@ -6,6 +6,10 @@ var Summary = /** @class */ (function () {
         this.analyzer = analyzer;
         this.outputTarget = outputTarget;
     }
+    ;
+    Summary.prototype.buildAndPrintReport = function (matches) {
+        var output = this.analyzer.run(matches);
+    };
     return Summary;
 }());
 exports.Summary = Summary;
