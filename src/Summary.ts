@@ -13,7 +13,6 @@ export class Summary {
 
   buildAndPrintReport(matches: MatchData[]): void {
     const output = this.analyzer.run(matches);
+    this.outputTarget.print(output)
   }
 }
-
-new Summary(new WinsAnalysis(), new ConsoleReport());
